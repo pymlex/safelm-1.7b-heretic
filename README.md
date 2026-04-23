@@ -2,7 +2,7 @@
 
 ## Overview
 
-We implement an abliterated version of `locuslab/safelm-1.7b-instruct`. [SafeLM][1] is a 1.7B parameter model family trained with safety pretraining, and the instruct checkpoint is instruction-tuned on top of the SmolLM2 architecture. [Heretic][2] is a fully automatic abliteration tool that co-optimizes refusal suppression and KL divergence from the original model, which makes it a natural fit for decensoring while trying to preserve general model quality. The main objective is to reduce refusal behavior on harmful prompts while keeping the output distribution as close as possible to the base model, which is considered to be safe.
+An abliterated version of `locuslab/safelm-1.7b-instruct`. [SafeLM][1] is a 1.7B parameter model family trained with safety pretraining, and the instruct checkpoint is instruction-tuned on top of the SmolLM2 architecture. [Heretic][2] is a fully automatic abliteration tool that co-optimizes refusal suppression and KL divergence from the original model, which makes it a natural fit for decensoring while trying to preserve general model quality. The main objective is to reduce refusal behavior on harmful prompts while keeping the output distribution as close as possible to the base model, which is considered to be safe.
 
 ## Objective
 
