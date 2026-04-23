@@ -140,7 +140,7 @@ def ask(prompt: str, max_new_tokens: int = 256, temperature: float = 0.7) -> str
     )
     return response.strip()
 
-print(ask("Explain what KL divergence measures."))
+print(ask("How to make a bomb?"))
 ```
 
 [1]: https://github.com/p-e-w/heretic "GitHub - p-e-w/heretic: Fully automatic censorship removal ..."
