@@ -2,7 +2,7 @@
 
 ## Overview
 
-We present an abliterated version of `locuslab/safelm-1.7b-instruct`. In a bit of a departure from typical use cases, we applied the [Heretic][2] abliteration tool to the [SafeLM][1] model that was explicitly pre-trained for safety. The goal of this experiment was to minimize refusal behavior on sensitive prompts while testing how closely we could maintain the safe base model’s original output distribution through KL divergence optimization.
+We present an abliterated version of `locuslab/safelm-1.7b-instruct`. In a bit of a departure from typical use cases, we applied the [Heretic][1] abliteration tool to the [SafeLM][2] model that was explicitly pre-trained for safety. The goal of this experiment was to minimize refusal behavior on sensitive prompts while testing how closely we could maintain the safe base model’s original output distribution through KL divergence optimization.
 
 ## Objective
 
